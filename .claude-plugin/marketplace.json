@@ -1,0 +1,22 @@
+{
+  "name": "hex-audit-skills",
+  "owner": {
+    "name": "hexcantcode",
+    "url": "https://github.com/hexcantcode"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Comprehensive security audit orchestration skills for Claude Code. Composes Pashov, Trail of Bits, and custom audit skills into unified pipelines."
+  },
+  "plugins": [
+    {
+      "name": "cream-full-audit",
+      "version": "1.0.0",
+      "description": "4-stage security audit pipeline for DeFi platforms: context building, parallel scanning (8 agents), false-positive validation, and severity-ranked reporting. Composes solidity-auditor (Pashov), Trail of Bits skills, nemesis-auditor, and senior-security into a single command.",
+      "author": {
+        "name": "hexcantcode"
+      },
+      "source": "./plugins/cream-full-audit"
+    }
+  ]
+}

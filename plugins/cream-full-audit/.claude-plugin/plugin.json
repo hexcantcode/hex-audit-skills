@@ -1,0 +1,8 @@
+{
+  "name": "cream-full-audit",
+  "version": "1.0.0",
+  "description": "4-stage security audit pipeline for DeFi platforms. Composes Pashov solidity-auditor, Trail of Bits skills, and custom audit skills into a unified command.",
+  "author": {
+    "name": "hexcantcode"
+  }
+}
